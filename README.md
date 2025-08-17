@@ -1,25 +1,26 @@
 # Causa on Solana
 
-⚔️ **Eternal Project – Colosseum Hackathon Submission** ⚔️
+**Causa on Solana** is more than just a token — it’s a movement.  
+At its heart, the project exists to channel blockchain power into **good causes around the world**.  
 
-## Overview
+Through a built-in tax system on transactions, a percentage of every trade goes directly to:  
+- 🌍 **Charity & Donations** – managed transparently through a DAO and reputation-based governance.  
+- 💰 **Reward Pool** – fueling the **Urna Vault**, where community members can claim direct SOL rewards .  
 
-Causa is a mobile-first dApp built on the **Solana blockchain** as part of the **Eternal Hackathon**.  
-The project experiments with new ways of rewarding holders, creating reputation systems, and making community governance more engaging.
-
-The app is developed using the **Solana Mobile Expo Template** and designed for the Seeker phone and Android emulator.  
-It is structured for fast iteration, modular features, and future scalability.
+This dual system ensures that every interaction with the token is both:  
+1. A **contribution to global good**.  
+2. A **rewarding experience for holders**.  
 
 ---
 
 ## Key Features
 
 - 📱 **Mobile-first** – Built with React Native + Expo for Solana Mobile.
-- 💰 **Urna Vault** – Manual claiming of rewards with gamified timing mechanics.
-- ⭐ **Reputation Points (RP)** – Earned from timely claims, quests, and donations.
-- 🔒 **Staking with Multipliers** – Long-term holders gain boosted rewards.
-- 🗳️ **Reputation-Based Perks** – NFT access, governance votes, reduced sell taxes.
-- 🌍 **Transparent Reward Pools** – Split across rewards, charity, and founder allocations.
+- 🌍 **Cause-driven Taxation** – Automatic % of each transaction goes to charity pools.
+- 🗳️ **DAO + Reputation Points (RP)** – Users earn RP for actions (quests, donations, timing claims). RP grants governance rights and influence over which causes receive funding.  
+- 💰 **Urna Vault Rewards** – Manual claiming of rewards funded by transaction tax allocations.  
+- 🔒 **Staking with Multipliers** – Long-term holders receive boosted rewards.  
+- ⭐ **Gamified Experience** – Quests, leaderboards, and reward timing create engagement beyond simple holding.  
 
 ---
 
@@ -27,7 +28,7 @@ It is structured for fast iteration, modular features, and future scalability.
 
 - **Frontend**: React Native (Expo)
 - **Blockchain**: Solana (Anchor + web3.js/TypeScript SDK)
-- **State Management**: Zustand / Redux (in progress)
+- **State Management**: Zustand 
 - **Error & Analytics**: Sentry + Posthog
 - **Environment**: Android Emulator / Solana Devnet
 
@@ -38,7 +39,7 @@ It is structured for fast iteration, modular features, and future scalability.
 - ✅ Emulator setup & running with Expo
 - ✅ Base app structure scaffolded
 - 🚧 Wallet connection + reward claiming under development
-- 🚧 RP system & quests in design phase
+- 🚧 RP system & DAO mechanics in design phase
 - 🚧 Staking multipliers in progress
 
 ---
